@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="str1">Check on Mr.Richards\' status\nRoom 103| 9:30 am</string>
+    <string name="str2">Measure Mr.Stuart\' B.P., refill IV Bag\nRoom 108| 10:00 am</string>
+    <string name="str3">Give a shower to Mr.Robert\nRoom 109| 10:45 am</string>
+    <string name="str4">Daily medication for Ms.Wilson\nRoom 115| 11:30 am</string>
+    <string name="str5">Assist Ms.Anna with her lunch\nRoom 118| 12:30 pm</string>
+
+    <string name="t1">Room 103| 9:30 am</string>
+    <string name="t2">Room 108| 10:00 am</string>
+    <string name="t3">Room 109| 10:45 am</string>
+    <string name="t4">Room 115| 11:30 am</string>
+    <string name="t5">Room 118| 12:30 pm</string>
+
+    <string name="n1">Thomas Jefferson</string>
+    <string name="n2">Andy Stuart</string>
+    <string name="n3">Wane Richards</string>
+    <string name="n4">Gregory Thames</string>
+    <string name="n5">Robert Credo</string>
+    <string name="n6">Sarah Wilson</string>
+    <string name="n7">Anna Julietta</string>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:orientation="vertical"
+    tools:context=".CreateReport">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e1"
+        android:hint="Report Title"
+        android:textColor="#FFFFFF"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Report Status"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:id="@+id/t1" />
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/s1"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Save"
+        android:onClick="SaveReport"
+        android:background="@drawable/button_bg"
+        android:layout_gravity="center"
+        android:id="@+id/b1"/>
+
+    <EditText
+        android:inputType="textMultiLine"
+        android:lines="10"
+        android:minLines="6"
+        android:gravity="top|left"
+        android:maxLines="10"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:id="@+id/e2"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:hint="Report Summary"/>
+
+</LinearLayout>
